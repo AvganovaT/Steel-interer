@@ -682,3 +682,22 @@ body {
         border-right: .3rem solid rgba($orange, 0);
     }
 }
+
+
+
+#toTop {
+    width: 15rem;
+    height: 4rem;
+    border:1px solid $orange;
+    background: $blue;
+    text-align: center;
+    padding: .5rem;
+    position: fixed;
+    bottom: 1rem; 
+    right: 1rem;
+    cursor: pointer;
+    display: none;
+    color: $white;
+    font-size: 30px;
+    border-radius: 2rem;
+    }
