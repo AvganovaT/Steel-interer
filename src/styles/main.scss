@@ -582,9 +582,18 @@ body {
     background-size: contain;
     width: auto;
     height: 30rem;
+    &__block {
+        max-width: 30rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
     &__title {
-        font-size: 20rem;
-        padding-top: 5rem;
+        display: block;
+        text-decoration: none;
+        font-size: 2.5rem;
+        padding-top: 25rem;
         margin: 0 auto;
         color: $white;
     }
@@ -644,6 +653,8 @@ body {
         width: 25rem;
         height: 20rem;
         margin: 0 auto;
+        border-radius: 1rem;
+        border: 2px solid $black;
     }
     &__title {
         font-size: 2rem;
@@ -717,6 +728,7 @@ body {
 
 
     .test {
+        margin-bottom: 10rem;
         &__flex {
             display: flex;
             justify-content: space-between;

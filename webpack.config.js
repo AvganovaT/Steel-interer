@@ -27,6 +27,18 @@ module.exports = ({develop}) => ({
       filename: "catalog.html",
       template: './src/catalog.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: "railings.html",
+      template: './src/railings.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: "about.html",
+      template: './src/about.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: "services.html",
+      template: './src/services.html'
+    }),
     new MiniCssExtractPlugin({
       filename: './styles/main.css'
     })
